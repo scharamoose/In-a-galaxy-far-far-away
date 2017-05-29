@@ -9,15 +9,17 @@ The challenge was to determine the number of stops each starship would need to m
 
 As the collection of starships is provided over a number of seperate pages, I decided to call and displayed the response asynchronously.
 
-In addition, I have included a number of unit tests included within the project, which assert various inputs, valid or otherwise.  I have also included a test to verify that the URL supplied returns a successful response. 
+In addition, I have included a number of unit tests within the project. These will verify the behavior of the code in response to standard, boundary, and incorrect cases of input data.
+
+I have also included tests to verify that the URL supplied returns a successful response and to validate the calculation of number of stops required. 
 
 NuGet Packages
 --------------
 The project already includes **Newtonsoft.Json v10.0.2**, which should be restored during the build process. 
 
-If not, this will need to be installed via the **NuGet Package Manager**
+If not, this will need to be installed via the **NuGet Package Manager**, under the **Tools** menu in Visual Studio.
 
-Running the console application
+Executing the console application
 -------------------------------
 You may run **[F5]** the application from either **Visual Studio** or you can locate and run the **InAGalaxyFarFarFarAway** application from the bin folder for your chosen solution configuration. 
 
