@@ -14,7 +14,7 @@ Running the console application
 You may run the application from either the IDE or you can locate the **InAGalaxyFarFarFarAway** application under the bin folder for your chosen solution configuration. 
 
 <p align="center">
-  <img src="./application.png">
+  <img src="./images/application.png">
 </p>
 
 Usage
@@ -22,19 +22,19 @@ Usage
 Once the application starts, the user will be prompted to enter the distance to travel in MGLT.  
 
 <p align="center">
-  <img src="./consolePrompt.png">
+  <img src="./images/consolePrompt.png">
 </p>
 
 Assuming the input entered is valid, the application will proceed to request information via the Star Wars API a.k.a SWAPI.  
 
 <p align="center">
-  <img src="./console1million.png">
+  <img src="./images/console1million.png">
 </p>
 
 If input is invalid, the user will prompted to re-enter a valid input, along with a further description of what is in fact valid.
 
 <p align="center">
-  <img src="./consoleExtraPrompt.png">
+  <img src="./images/consoleExtraPrompt.png">
 </p>
 
 Assuming communication is possible and input is valid, the application will attempt to interact with the SWAPI.
@@ -44,7 +44,7 @@ Once each call is completed, the output is written to the console.
 Once all calls have been complete, a counter is ouput to indicate the number of records processed.
 
 <p align="center">
-  <img src="./retrievedAllStarships.png">
+  <img alt="Retrieved All Starships img" src="images/retrievedAllStarships.png">
 </p>
 
 If communication has not been possible, this is communicated to the user and the are given the option to try and to to escape from the application.
@@ -52,6 +52,6 @@ If communication has not been possible, this is communicated to the user and the
 If 'Esc' is chosen, application automatically closes after 3 seconds.
 
 <p align="center">
-  <img src="./AutoExit.png">
-  <p align="left">   acsii art by Ray Brunner</p>
+  <img alt="Auto Exit img" src="images/AutoExit.png">
+ <p>acsii art by Ray Brunner</p>
 </p>
