@@ -13,18 +13,20 @@ In addition, I have included a number of unit tests included within the project,
 
 NuGet Packages
 --------------
-The project already includes Newtonsoft.Json v10.0.2, which should be restored during the build process. If not, this will need to be installed via the NuGet Package Manager.
+The project already includes **Newtonsoft.Json v10.0.2**, which should be restored during the build process. 
+
+If not, this will need to be installed via the **NuGet Package Manager**
 
 Running the console application
 -------------------------------
-You may run [F5] the application from either the IDE or you can locate the **InAGalaxyFarFarFarAway** application under the bin folder for your chosen solution configuration. 
+You may run **[F5]** the application from either **Visual Studio** or you can locate and run the **InAGalaxyFarFarFarAway** application from the bin folder for your chosen solution configuration. 
 
 <p align="center">
   <img src="./images/application.png">
 </p>
 
-Usage
------
+Instructions
+------------
 Once the application has started, the user will be prompted to enter the distance to travel in MGLT.  
 
 <p align="center">
