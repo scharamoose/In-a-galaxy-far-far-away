@@ -3,9 +3,9 @@ In A Galaxy Far Far Away
 
 Overview
 --------
-The solution satisfies the requirements of the coding challenge by means of several asynchronous calls.  
+The solution satisfies the requirements of the coding challenge by utilising a number of asynchronous api calls.  
 
-Once each response is received, the number off re-supplies required for each star-ship to travel the desired distance is calculated.  There are also a number of unit test include which assert various inputs, valid or otherwise.  
+Once each response is received, the number of re-supplies required for each starship to travel the distance provided is then calculated.  There are also a number of unit tests included which assert various inputs, valid or otherwise.  
 
 In addition, I have included a test to verify that the URL supplied returns a successful response. 
 
@@ -39,7 +39,7 @@ If input is invalid, the user will prompted to re-enter a valid input, along wit
 
 Assuming communication is possible and input is valid, the application will attempt to interact with the SWAPI.
 
-Once each call is complete, the output is written to the console. 
+Once each call is completed, the output is written to the console. 
 
 Once all calls have been complete, a counter is ouput to indicate the number of records processed.
 
