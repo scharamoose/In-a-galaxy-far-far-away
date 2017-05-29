@@ -63,5 +63,5 @@ If '**Esc**' is chosen, application automatically closes after 3 seconds.
 
 <p align="center">
   <img alt="Auto Exit img" src="images/AutoExit.png">
-  <p>acsii art by Ray Brunner</p>
+  <p>&nbsp;<i>acsii art by</i> <strong>Ray Brunner</strong></p>
 </p>
