@@ -51,6 +51,3 @@ If communication has not been possible, this is communicated to the user and the
 
 If 'Esc' is chosen, application automatically closes after 3 seconds.
 
-<p align="center">
-  <img src="./AutoExit.png">
-</p>
